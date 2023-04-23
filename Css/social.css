@@ -1,0 +1,19 @@
+body{
+   background-image: url(../Media/Background.jpg);
+   font-family: 'Poppins';
+   
+}
+@media only screen and (max-width:1160px){
+
+}
+a{
+    display: flex;
+    height:150px;
+    width:150px;
+}
+.z{
+    height:150px;
+    width:150px;
+    border-radius: 100%;
+    border:4px solid white; 
+}

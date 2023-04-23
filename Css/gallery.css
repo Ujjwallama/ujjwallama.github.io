@@ -1,0 +1,52 @@
+
+    /* Style the gallery container */
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /* Style the gallery images */
+    .gallery img {
+        margin: 5px;
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border: 4px solid rgb(8, 8, 8);
+        border-radius: 39px;
+    }
+    .tmp{
+        background-image: url(../Media/Background.jpg);
+        background-size: cover;
+        display:flex;
+    }
+    @media only screen and (max-width:1160px){
+        .gallaery{
+            display: flex;
+        }
+        .gallery img {
+        margin: 10px;
+        width: 150px;
+        height: 200px;
+        object-fit: cover;
+        border: 2px solid rgb(8, 8, 8);
+        border-radius: 12px;
+        
+    }
+     
+    
+    } 
+    .tmp{
+          background-size: cover;
+    }
+
+        
+ .align{
+
+font-family: 'Poppins';
+cursor: pointer;
+color: white;
+ }
+ .align:hover{
+    color: yellowgreen;
+ } 

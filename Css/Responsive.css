@@ -1,0 +1,50 @@
+@media only screen and (max-width:1160px){
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+        transition: all 0.9s ease-out;
+        height:432px;
+    }
+    .right-nav{
+       text-align: center;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+          }
+    #search{
+        width:100%
+    }
+   
+    .burger{
+        display: block;
+    }
+    .h-nav-resp{
+        height: 72px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+    .section{
+        flex-direction: column-reverse;
+
+    }
+    .text-small{
+        text-align: center;
+        font-size: 16px;
+        color: aquamarine;
+    }
+    .text-big{
+        text-align: center;
+        font-size: 42px;
+        color: chartreuse;
+    }
+    .buttons{
+        text-align: center;
+    }
+    .paras{
+        padding: 0 1px;
+    }
+}
